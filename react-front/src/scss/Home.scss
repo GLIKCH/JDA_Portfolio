@@ -1,0 +1,100 @@
+// SCSS Code Index
+// 5 - Responsive Media Query XL
+// 17 - Full Screen Video
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+// Responsive Media Query @ XL
+@media (min-width: 1200px) {
+.h-home {
+  background-color: orangered;
+  display: grid;
+  grid-template-rows: 22em 20em;
+  position: absolute;
+  top: 1;
+}
+
+// Responsive Full Screen Video
+#h_id_video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+}
+
+#l_id_video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+}
+
+#jdatag {
+  position: relative;
+  top: 1;
+  background-image: url(../images/MAIN01.png);
+  background-size: 50em;
+  width: 45em;
+  height: 9.10em;
+  margin-top: 10em;
+  margin-left: 15em;
+}
+
+#jdaimg {
+  margin-top: 0em;
+  margin-left: -33em;
+  grid-row: 2/3;
+  position: relative;
+  top: 1;
+  width: 15em;
+  height: 15em;
+  background-image: url(../images/me01.png);
+  background-size: 15em
+}
+
+#link1 {
+  position: relative;
+  top: 1;
+  font-family: 'Orbitron', sans-serif;
+  color: orangered;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#link1:hover {
+  cursor: crosshair;
+  color: orange;
+}
+
+#link2 {
+  position: relative;
+  top: 1;
+  font-family: 'Orbitron', sans-serif;
+  color: orangered;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#link3 {
+  position: relative;
+  top: 1;
+  font-family: 'Orbitron', sans-serif;
+  color: orangered;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+#nav {
+  display: grid;
+  grid-row: 2/3;
+  grid-template-columns: 5em;
+  grid-template-rows: 3em 3em 3em;
+  position: relative;
+  top: 1;
+  width: 10em;
+  height: 10em;
+  margin-left: 15em;
+  margin-bottom: 2em;
+}
+
